@@ -21,7 +21,7 @@ public class SparseArray {
             }
             System.out.println();
         }
-
+        System.out.println("---------------------------------------------");
         /**
          * 把如上的二维数组中的有效数据压缩至稀疏数组中去
          */
@@ -59,6 +59,7 @@ public class SparseArray {
             System.out.printf("%d%d%d\t", sparseArray[i][0], sparseArray[i][1], sparseArray[i][2]);
             System.out.println();
         }
+        System.out.println("---------------------------------------------");
 
         /**
          * 把稀疏数组转为原始二维数组
@@ -67,7 +68,7 @@ public class SparseArray {
         for(int i=1;i<=count;i++){
             oldArray[sparseArray[i][0]][sparseArray[i][1]] = sparseArray[i][2];
         }
-        System.out.println("---------------------------------------------");
+
 
         /**
          * 查看原始二位数据棋盘
@@ -81,6 +82,7 @@ public class SparseArray {
         /**
          * 把稀疏数组转为链表
          */
+        System.out.println("---------------------------------------------");
 
         SparseArrayDto head = new SparseArrayDto();
         SparseArrayDto linkedList = new SparseArrayDto();
