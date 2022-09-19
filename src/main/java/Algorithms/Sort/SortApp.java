@@ -1,0 +1,7 @@
+package Algorithms.Sort;
+
+/**
+ * ≈≈–ÚÀ„∑®
+ */
+public class SortApp {
+}
