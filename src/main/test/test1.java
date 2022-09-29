@@ -13,5 +13,11 @@ public class test1 {
         if (42 == 42.0) { // true
             System.out.println("true");
         }
+        Student student = new Student(1, 2);
+        Student student1 = new Student(1, 2);
+        if (student.equals(student1)) { // true
+            System.out.println("hhhhhhh");
+        }
+
     }
 }
