@@ -1,4 +1,8 @@
 public class test1 {
+    /**
+     * 关于String的==和eequals的比较测试
+     * @param args
+     */
     public static void main(String[] args) {
         String a = new String("ab"); // a 为一个引用
         String b = new String("ab"); // b 为另一个引用,对象的内容一样
