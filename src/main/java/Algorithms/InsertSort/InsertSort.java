@@ -24,3 +24,4 @@ public class InsertSort {
         System.out.println("排序后的结果："+ Arrays.toString(array));
     }
 }
+
