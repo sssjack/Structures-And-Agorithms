@@ -1,27 +1,55 @@
+import java.util.Arrays;
+
 public class test1 {
     /**
      * 关于String的==和eequals的比较测试
      * @param args
      */
     public static void main(String[] args) {
-        String a = new String("ab"); // a 为一个引用
-        String b = new String("ab"); // b 为另一个引用,对象的内容一样
-        String aa = "ab"; // 放在常量池中
-        String bb = "ab"; // 从常量池中查找
-        if (aa == bb) // true
-            System.out.println("aa==bb");
-        if (a == b) // false，非同一对象
-            System.out.println("a==b");
-        if (a.equals(b)) // true
-            System.out.println("aEQb");
-        if (42 == 42.0) { // true
-            System.out.println("true");
-        }
-        Student student = new Student(1, 2);
-        Student student1 = new Student(1, 2);
-        if (student.equals(student1)) { // true
-            System.out.println("hhhhhhh");
-        }
+        int[] array = new int[]{2,4,11,3};
+
+        System.out.println(Arrays.toString(array));
+
 
     }
+
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode listNode = new ListNode();
+        ListNode listNode2 = new ListNode();
+        ListNode l3 = l1;
+        ListNode l4 = l2;
+        int i=0;
+        int j=0;
+        while (l3.next!=null){
+            i++;
+            l3=l3.next;
+        }
+        while (l4.next!=null){
+            i++;
+            l4=l4.next;
+        }
+        /**
+         * 1.判断能否相加
+         * 2.相加判断是否大于10
+         */
+        if(i>j){
+            int l = 0;
+            for(int k=0;k<i;k++){
+                if (l3.val+l4.val+l >=10){
+                    listNode.val = l3.val+l4.val+l - 10;
+                    l = 1;
+                }else {
+                    listNode.val = l3.val+l4.val+l;
+                    l = 0;
+                }
+                l3 =l3.next;
+                listNode = listNode.next;
+            }
+        }
+
+
+        return null;
+    }
+
+
 }
