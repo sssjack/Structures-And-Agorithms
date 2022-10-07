@@ -1,4 +1,4 @@
-package Algorithms.BubbleSort;
+package Algorithms.Sort.BubbleSort;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package Algorithms.ShellSort;
+package Algorithms.Sort.ShellSort;
 
 import java.util.Arrays;
 

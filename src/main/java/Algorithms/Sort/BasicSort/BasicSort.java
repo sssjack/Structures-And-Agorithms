@@ -1,4 +1,4 @@
-package Algorithms.BasicSort;
+package Algorithms.Sort.BasicSort;
 
 
 import java.text.SimpleDateFormat;

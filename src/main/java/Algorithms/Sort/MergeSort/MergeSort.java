@@ -1,4 +1,4 @@
-package Algorithms.MergeSort;
+package Algorithms.Sort.MergeSort;
 
 import java.util.Arrays;
 
