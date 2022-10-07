@@ -18,6 +18,7 @@
     ShellSort       ------------关于希尔排序算法
     MergeSort       ------------关于归并排序算法
     LinearSearch    ------------线性查找
+    BinarySearch    ------------二分查找
 
 #### 安装教程
 
