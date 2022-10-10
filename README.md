@@ -20,6 +20,7 @@
     LinearSearch    ------------线性查找
     BinarySearch    ------------二分查找
     InsertSearch    ------------插值查找
+    FibonacciSearch ------------斐波那契查找
 
 #### 安装教程
 

@@ -1,4 +1,4 @@
-package Algorithms.LookUp;
+package Algorithms.Search;
 
 /**
  * 查找算法--线性查找

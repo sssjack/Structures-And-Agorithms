@@ -1,4 +1,4 @@
-package Algorithms.LookUp;
+package Algorithms.Search;
 
 /**
  * ≤Â÷µ≤È’“

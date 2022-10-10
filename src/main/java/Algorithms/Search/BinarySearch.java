@@ -1,4 +1,4 @@
-package Algorithms.LookUp;
+package Algorithms.Search;
 
 /**
  * 二分查找法
