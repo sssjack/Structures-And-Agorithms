@@ -1,4 +1,7 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
 
 public class test1 {
     /**
@@ -6,50 +9,39 @@ public class test1 {
      * @param args
      */
     public static void main(String[] args) {
-        int[] array = new int[]{2,4,11,3};
+        String s = "au";
 
-        System.out.println(Arrays.toString(array));
+        int sum = 0;
+
+        for(int i=0;i<s.length();i++){
+            StringBuilder per = new StringBuilder();
+            int j = 0;
 
 
-    }
-
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode listNode = new ListNode();
-        ListNode listNode2 = new ListNode();
-        ListNode l3 = l1;
-        ListNode l4 = l2;
-        int i=0;
-        int j=0;
-        while (l3.next!=null){
-            i++;
-            l3=l3.next;
-        }
-        while (l4.next!=null){
-            i++;
-            l4=l4.next;
-        }
-        /**
-         * 1.判断能否相加
-         * 2.相加判断是否大于10
-         */
-        if(i>j){
-            int l = 0;
-            for(int k=0;k<i;k++){
-                if (l3.val+l4.val+l >=10){
-                    listNode.val = l3.val+l4.val+l - 10;
-                    l = 1;
-                }else {
-                    listNode.val = l3.val+l4.val+l;
-                    l = 0;
+            String substring = s.substring(i,i+1);
+            while (per.toString().equals("") ||!per.toString().contains(substring)){
+                per.append(substring);
+                j = j+1;
+                if(i+j<=s.length()&&i+1+j<=s.length()){
+                    substring = s.substring(i+j,i+1+j);
                 }
-                l3 =l3.next;
-                listNode = listNode.next;
+
             }
+            if(per.toString().length()>sum){
+                sum = per.toString().length();
+            }
+
         }
 
 
-        return null;
+        System.out.println(sum);
+
+
+
+
     }
+
+
 
 
 }
