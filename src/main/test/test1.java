@@ -10,35 +10,14 @@ public class test1 {
      */
     public static void main(String[] args) {
         String s = "au";
+        int[] nums1 =  {1,3};
+        int[] nums2 =  {2};
+        double medianSortedArrays = findMedianSortedArrays(nums1, nums2);
 
-        int sum = 0;
+    }
 
-        for(int i=0;i<s.length();i++){
-            StringBuilder per = new StringBuilder();
-            int j = 0;
-
-
-            String substring = s.substring(i,i+1);
-            while (per.toString().equals("") ||!per.toString().contains(substring)){
-                per.append(substring);
-                j = j+1;
-                if(i+j<=s.length()&&i+1+j<=s.length()){
-                    substring = s.substring(i+j,i+1+j);
-                }
-
-            }
-            if(per.toString().length()>sum){
-                sum = per.toString().length();
-            }
-
-        }
-
-
-        System.out.println(sum);
-
-
-
-
+    public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
+            return 0;
     }
 
 

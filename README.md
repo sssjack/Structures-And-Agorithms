@@ -10,6 +10,7 @@
     Link            ------------关于链
     SparseArray     ------------关于稀疏数组
     Recursion       ------------关于递归
+
     BasicSort       ------------关于基数算法
     BubbleSort      ------------关于冒泡排序算法
     QuickSort       ------------关于快速排序算法
@@ -17,10 +18,13 @@
     SelectSort      ------------关于选择排序算法
     ShellSort       ------------关于希尔排序算法
     MergeSort       ------------关于归并排序算法
+
     LinearSearch    ------------线性查找
     BinarySearch    ------------二分查找
     InsertSearch    ------------插值查找
     FibonacciSearch ------------斐波那契查找
+
+    HashTable       ------------关于哈希表
 
 #### 安装教程
 
