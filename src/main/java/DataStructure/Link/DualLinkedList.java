@@ -1,4 +1,4 @@
-package Algorithms.Link;
+package DataStructure.Link;
 
 public class DualLinkedList {
     private BookNode head = new BookNode(0, "", 0.0);

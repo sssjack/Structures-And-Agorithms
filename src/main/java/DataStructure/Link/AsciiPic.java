@@ -1,4 +1,4 @@
-package Algorithms.Link;
+package DataStructure.Link;
 
 
 import javax.imageio.ImageIO;

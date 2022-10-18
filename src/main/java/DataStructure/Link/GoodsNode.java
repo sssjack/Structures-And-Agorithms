@@ -1,21 +1,17 @@
-package Algorithms.Link;
+package DataStructure.Link;
 
 
 /**
- * 模拟一个链（双链表）
+ * 模拟一个链
  *
  */
-public class BookNode {
+public class GoodsNode {
     public int id;
     public String name;
     public double price;
+    public GoodsNode next;
 
-//    该节点下一个节点，直接后继
-    public BookNode next;
-//    该节点上一个节点，直接前继
-    public BookNode pre;
-
-    public BookNode(int id, String name, double price) {
+    public GoodsNode(int id, String name, double price) {
         this.id = id;
         this.name = name;
         this.price = price;

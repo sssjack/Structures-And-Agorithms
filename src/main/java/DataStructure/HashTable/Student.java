@@ -1,4 +1,4 @@
-package Algorithms.HashTable;
+package DataStructure.HashTable;
 
 public class Student {
     public int id;

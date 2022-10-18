@@ -1,4 +1,4 @@
-package Algorithms.HashTable;
+package DataStructure.HashTable;
 
 public class TestApp {
     public static void main(String[] args) {

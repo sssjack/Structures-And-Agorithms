@@ -1,4 +1,4 @@
-package Algorithms.ArrayQueue;
+package DataStructure.ArrayQueue;
 
 /**
  * 数组实现队列插入

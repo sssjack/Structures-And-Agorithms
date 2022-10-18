@@ -1,4 +1,4 @@
-package Algorithms.Link;
+package DataStructure.Link;
 
 public class DlLinkedList {
     private GoodsNode node = new GoodsNode(0, "", 0.0);

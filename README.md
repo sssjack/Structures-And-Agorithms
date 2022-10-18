@@ -25,6 +25,7 @@
     FibonacciSearch ------------斐波那契查找
 
     HashTable       ------------关于哈希表
+    BinaryTree      ------------关于树
 
 #### 安装教程
 

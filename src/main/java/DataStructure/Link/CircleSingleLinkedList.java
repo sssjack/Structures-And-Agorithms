@@ -1,4 +1,4 @@
-package Algorithms.Link;
+package DataStructure.Link;
 
 public class CircleSingleLinkedList {
 
