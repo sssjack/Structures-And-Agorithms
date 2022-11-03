@@ -1,4 +1,4 @@
-package DataStructure.Tree;
+package DataStructure.Tree.Tree;
 
 public class Test {
     public static void main(String[] args) {

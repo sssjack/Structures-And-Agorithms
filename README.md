@@ -26,6 +26,7 @@
 
     HashTable       ------------关于哈希表
     BinaryTree      ------------关于树
+    ArrayBinaryTree ------------关于顺序存储二叉树
 
 #### 安装教程
 
