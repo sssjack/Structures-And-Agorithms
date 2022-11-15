@@ -26,7 +26,9 @@
 
     HashTable       ------------关于哈希表
     BinaryTree      ------------关于树
-
+    ArrayBinaryTree ------------关于顺序存储二叉树
+    ClueBianryTree  ------------关于线索化二叉树
+    HuffmanTree     ------------关于赫夫曼树
 #### 安装教程
 
 1.  将数据结构与算法代码写入controller,在Test启动类中直接启动即可看到效果

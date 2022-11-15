@@ -1,4 +1,4 @@
-package DataStructure.Tree;
+package DataStructure.Tree.Tree;
 
 public class Test {
     public static void main(String[] args) {
@@ -18,12 +18,22 @@ public class Test {
 
         binaryTree.setRoot(root);
 
+        binaryTree.delNode(5);
 
         binaryTree.preSelect();
         System.out.println("-----------------------------------------");
         binaryTree.infixSelect();
         System.out.println("-----------------------------------------");
         binaryTree.postSelect();
+
+
+        Node node = binaryTree.preNode(5);
+        if(node!=null){
+            System.out.printf("信息为：id=%d name=%s",node.getNo(),node.getName());
+        }else {
+            System.out.println("没有找到结点");
+        }
+
 
     }
 }
