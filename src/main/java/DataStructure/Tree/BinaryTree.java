@@ -31,4 +31,5 @@ public class BinaryTree {
             System.out.println("空二叉树，无法遍历");
         }
     }
+
 }
